@@ -1,4 +1,4 @@
-#Star Notary Blockchain app
+# Star Notary Blockchain app
 
 Truffle version: v5.0.2
 
@@ -6,7 +6,7 @@ OpenZeppelin: 2.1.2
 
 "Contract Address” on the Rinkeby Network: 0x1F6A4a4c011EC21C076F33799B32a0d97722ebE0
 
-##How to use the project?
+## How to use the project?
 
 Must be connected via command line with ganache-cli on port 8545! 
 Connect with command...

@@ -3,6 +3,12 @@
 Truffle version: v5.0.2
 
 OpenZeppelin: 2.1.2
+
+Your ERC-721 Token Name: Around The Block Token
+
+Your ERC-721 Token Symbol: ATBT
+## Rinkeby contract address
+https://rinkeby.etherscan.io/tx/0x15d492e0df427ac922d2821aa28a13d4a8bc40e43111dd8774f0929291181f0c
 ## How to use the project?
 
 ```npm install``` will install all the dependencies
@@ -76,9 +82,5 @@ Summary
 > Total deployments:   2
 > Final cost:          0.04941114 ETH
 ```
-## Rinkeby contract address
-https://rinkeby.etherscan.io/tx/0x15d492e0df427ac922d2821aa28a13d4a8bc40e43111dd8774f0929291181f0c
 
-Previous Rinkeby deployment from same account- 
-https://rinkeby.etherscan.io/tx/0x082580ad77c6be8333e5a85e00b0a647cf04194f3c0f7cd1177ccdb5fc38c536
 

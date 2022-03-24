@@ -3,6 +3,9 @@ pragma solidity ^0.4.23;
 import "openzeppelin-solidity/contracts/token/ERC721/ERC721.sol";
 
 contract StarNotary is ERC721 {
+    string public constant name = "Around The Block Token";
+    string public constant symbol = "ATBT";
+
     struct Star {
         string name;
         string story;

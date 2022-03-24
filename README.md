@@ -43,9 +43,3 @@ For running the Front End of the DAPP, open another terminal window and go insid
 ```
 ## Rinkeby contract address
 `0xfa096ec1127e1d195c3ae27e3a76b64117548a38`
-## Rinkeby contract deployment transaction		
-` https://rinkeby.etherscan.io/tx/0xafeef80a8dc1a4e27d5c06a85af9370f5d0c38dd1d048047cbc6f8a1c2106dc2`
-## Rinkeby claim star transaction (star token 1)
-`https://rinkeby.etherscan.io/tx/0x2d07b3adcda8b5fdd4f3b77669047e77ffce4f6309131352bf7665ee402b5ff2`
-## Rinkeby put star up for sale transaction
-`https://rinkeby.etherscan.io/tx/0x476bef945afec5e0d74417db124f39bf22827307516c6e4f080395d45fdd85c1`

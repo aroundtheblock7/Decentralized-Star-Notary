@@ -3,30 +3,80 @@
 Truffle version: v5.0.2
 
 OpenZeppelin: 2.1.2
-
-"Contract Address” on the Rinkeby Network: 0x1F6A4a4c011EC21C076F33799B32a0d97722ebE0
-
 ## How to use the project?
 
-Must be connected via command line with ganache-cli on port 8545! 
-Connect with command...
-ganache-cli (This will connect you via port 8454)
+```npm install``` will install all the dependencies
 
-For starting the development console, run:
-truffle develop
+In a seperate terminal connect via ganache to port 8545 with the commmand:
+```ganache-cli```
 
-For compiling the contract, inside the development console, run:
-compile
+In previous terminal (in root folder of project) run:
+```truffle compile```
 
 For migrating the contract to the locally running Ethereum network, inside the development console, run:
-migrate --reset
+```migrate --reset```
 
 For running unit tests the contract, inside the development console, run:
-test
+```truffle test```
 
 For running the Front End of the DAPP, open another terminal window and go inside the project directory, and run:
-cd app
-npm run dev
+```cd app```
+```npm run dev```
 
-When connecting Via Metamask make sure you are on localhost 8545 (not 9545) and your account is funded with test ETH.
-In metamaks you can import accounts (using private key) from truffle develop console into metamask to fund account with test ETH.
+## Rinkeby deployment log
+```
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 29999915
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x0a6ad9a33012217268c646847142c1ee05870bbe1c684bbed9d9d6dfe58d95b1
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x06EDD192db90aFfEf2e7869717395D9a690e9f0a
+   > account:             0xFF985509Aa523FE9cd3d0A6891fCB9f2A4134feE
+   > balance:             0.39520212
+   > gas used:            239894
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00479788 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00479788 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > transaction hash:    0x082580ad77c6be8333e5a85e00b0a647cf04194f3c0f7cd1177ccdb5fc38c536
+   > Blocks: 0            Seconds: 12
+   > contract address:    0xa643b359fd3EFF4B69fa46e0b98774403fD48A1C
+   > account:             0xFF985509Aa523FE9cd3d0A6891fCB9f2A4134feE
+   > balance:             0.35058886
+   > gas used:            2230663
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04461326 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.04461326 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.04941114 ETH
+
+```
+## Rinkeby contract address
+`0xa643b359fd3EFF4B69fa46e0b98774403fD48A1C`

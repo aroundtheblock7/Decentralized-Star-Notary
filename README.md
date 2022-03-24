@@ -24,22 +24,58 @@ For running the Front End of the DAPP, open another terminal window and go insid
 
 ## Rinkeby deployment log
 ```
-		Using network 'rinkeby'.
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 30000000
 
-		Running migration: 1_initial_migration.js
-		  Deploying Migrations...
-		  ... 0x21ff62ca26816c5983b9ce5a5e097a65b0c7eabccd014698551723226d26ef34
-		  Migrations: 0xcc3b5cfffae19d5b7ec7639226a42f9193126557
-		Saving successful migration to network...
-		  ... 0xcc4c75cdc841fbe7422f070d3f15773552aefd1546d66b915e5b3fb49a206d67
-		Saving artifacts...
-		Running migration: 2_deploy_star_notary.js
-		  Deploying StarNotary...
-		  ... 0xafeef80a8dc1a4e27d5c06a85af9370f5d0c38dd1d048047cbc6f8a1c2106dc2
-		  StarNotary: 0xfa096ec1127e1d195c3ae27e3a76b64117548a38
-		Saving successful migration to network...
-		  ... 0x543f00f90023f4e2b0f43d817c51da1dbc6fdcaf22760582c2cd2fbeea380038
-		Saving artifacts...
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x52684026464a3df8c5342400d456a9f6f18b5b3931d82a22af2ca4f5a814972c
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x32CcA129a8a3C9Fa512DE91e74D67e5e60cE481d
+   > account:             0xFF985509Aa523FE9cd3d0A6891fCB9f2A4134feE
+   > balance:             0.34579098
+   > gas used:            239894
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00479788 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00479788 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'StarNotary'
+   ----------------------
+   > transaction hash:    0x15d492e0df427ac922d2821aa28a13d4a8bc40e43111dd8774f0929291181f0c
+   > Blocks: 1            Seconds: 12
+   > contract address:    0x80a5854Ec2575bcA486C1C2A30A66e0D3d7Ce2C3
+   > account:             0xFF985509Aa523FE9cd3d0A6891fCB9f2A4134feE
+   > balance:             0.30117772
+   > gas used:            2230663
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04461326 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.04461326 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.04941114 ETH
 ```
 ## Rinkeby contract address
-`0xfa096ec1127e1d195c3ae27e3a76b64117548a38`
+https://rinkeby.etherscan.io/tx/0x15d492e0df427ac922d2821aa28a13d4a8bc40e43111dd8774f0929291181f0c
+
